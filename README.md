@@ -14,11 +14,10 @@
 
 #### open PostMan Application and try running these commands
 
-* for creating an Admin Id  __localhost:9000/admin/create__
-* for Login 
-* for creating   _localhost:9000/question/create_  method: POST , here you have to give key as title and value as question
-* for deleting question  _localhost:9000/question/:id/delete_ method: GET , here you have to give _id of that question
-* for creating option to question _localhost:9000/question/:id/options/create_ method: POST, here you have to give key as text value as option, also you need to give _id
-* for showing full question with option _localhost:9000/question/:id_ method: GET, here you have to give _id of that question
-* for deleting a particular option _localhost:9000/option/:id/delete_ method: GET, here you have to give _id of that particular option
-* for adding vote to option _localhost:9000/option/:id/add_vote_ method: POST, here you have to give _id of that option
+* for creating an Admin Id  __localhost:9000/admin/create__.
+* for Login an Admin Id __localhost:9000/admin/login__.
+* then Token of jwt will generated copy that an go to head in key write Authoriation in next Brarer and copy that token.
+* for creating   __localhost:9000/products/create__  method: POST , here you have to give key as title and value as products.
+* to list products  __localhost:9000/products__method:Get.,To list all the products
+* for deleting products   __localhost:9000/products/Id:__ method: Delete , here you have to give _id of that products.
+* to update quantity of a product (can be incremented or decremented)  __localhost:9000/products/:id/update_quantity__ method Post,In key write number.
